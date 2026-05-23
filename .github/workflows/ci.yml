@@ -59,6 +59,6 @@ jobs:
 
             cd bank_project
 
-            sudo docker build -t bank-project .
+            sudo docker build -t bank-fastapi .
 
-            sudo docker run -d -p 8000:8000 --name bank-api bank-project
+            sudo docker run -d -p 8000:8000 --name bank-api bank-fastapi
