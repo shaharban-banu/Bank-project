@@ -7,11 +7,11 @@ def test_initial_balance():
 
 def test_deposit(account):
     newbalance=account.deposit(500)
-    assert newbalance==2500
+    assert newbalance==1500
 
 def test_withdraw(account):
     newbalance=account.withdraw(300)
-    assert newbalance==1700
+    assert newbalance==700
 
 def test_withdraw_insufficient_balance(account):
     with pytest.raises(ValueError):

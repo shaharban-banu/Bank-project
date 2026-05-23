@@ -4,5 +4,5 @@ from bank import BankAccount
 
 @pytest.fixture
 def account():
-    return BankAccount(2000)
+    return BankAccount(1000)
 
